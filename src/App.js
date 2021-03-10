@@ -12,7 +12,7 @@ function App() {
     setEquation({
     ...equation, 
 
-    [e.target.id] : [e.target.value]
+    [e.target.id] : e.target.value
   })
 }
 
